@@ -1,6 +1,6 @@
 ### Interactive Data Visualization with Bokeh
 
-This repository contains a jupyter notebook, along with associated figures and source code files, that provide an introduction to Bokeh (bokeh.org), a Python package supporting interactive data visualization within web browsers.
+This repository contains a jupyter notebook named bokeh.ipynb, along with associated figures and source code files, that provide an introduction to Bokeh (bokeh.org), a Python package supporting interactive data visualization within web browsers.
 
 The notebook was used as the basis for a CAC Research Computing Seminar on 10/26/2022 at Cornell University.  The notebook will also be linked to an upcoming online training roadmap showcasing Bokeh as part of the Cornell Virtual Workshop (cvw.cac.cornell.edu).
 
@@ -25,3 +25,8 @@ If you want to create a python virtual environment instead, and want to use pip 
 
 ```python -m venv bokeh_env ; source bokeh_env/bin/activate ; pip install bokeh pandas jupyter networkx```
 
+Once the relevant packages are installed, you can run:
+
+```jupyter notebook bokeh.ipynb```
+
+or, alternatively, run ```jupyter notebook``` and then select ```bokeh.ipynb``` from the file browser that pops up.
